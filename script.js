@@ -12,7 +12,7 @@ document.getElementById('changeTextButton').addEventListener('click', function()
     else {
         
         turnText.innerText = "Brett's Turn!";
-        turnText.classList.add('brett-button');
+        turnText.classList.add('brett-text');
         changeTextButton.classList.add('brett-button');
     }
     
